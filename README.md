@@ -26,3 +26,12 @@ To analyze and visualize health insurance data in order to uncover insights abou
 ## Dashboard
 <img width="1322" height="742" alt="PBI_Dashboard" src="https://github.com/user-attachments/assets/1f54aaad-1435-4b0e-85fa-6a4f1988dcdf" />
 
+## Dashboard Insight
+-	Senior clients contribute to the highest total charges.
+-	Smokers significantly affect the insurance cost, with visible clustering in higher charge ranges.
+-	BMI remains relatively stable across age groups but still shows individual spikes.
+-	Regional differences are visible in both charges and smoker/parent split.
+-	20.48% of clients are smokers, and 764 clients are parents out of 1338 total.
+
+## Conclusion
+This project shows how integrating Python, SQL, and Power BI can produce a streamlined and automated data analytics workflow. By combining data engineering (ETL), storage, and BI visualization, this solution empowers decision-making in an insurance context. The dashboard effectively communicates key customer insights to stakeholders.
