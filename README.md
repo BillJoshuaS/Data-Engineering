@@ -16,15 +16,13 @@ To analyze and visualize health insurance data in order to uncover insights abou
 
 - Dashboard Interaction <a href="https://github.com/BillJoshuaS/Data-Engineering/blob/main/InsuranceBoard_lvl1.pbix">View Dashboard</a>
 
-## Project Workflow & Tools Used
-1.	Data Source: The dataset insurance.csv contains client data with fields like age, gender, BMI, smoker status, charges, etc.
-2.	Data Storage: The raw dataset was first imported into a MySQL database for structured storage.
-3.	Data Transformation: Using Python (Pandas), we:
-o	Cleaned and categorized the data (e.g., age groups, parent flag).
-o	Converted categorical columns to numeric.
-o	Computed measures like total charges, smoker percentages, etc.
-o	Saved the final transformed dataset as a .csv file.
-4.	Data Visualization: Using Power BI, we:
-o	Connected the transformed CSV.
-o	Created custom visuals, slicers, cards, and a gauge.
-o	Designed an interactive dashboard reflecting client metrics.
+## Project Workflow and Process
+-	Imported the insurance.csv dataset containing client data into a MySQL database for structured storage.
+-	Transformed the data using Python (Pandas): cleaned, categorized age groups, created parent flag, encoded categories, and calculated key metrics.
+-	Saved the transformed dataset as a CSV file for further use.
+-	Loaded the CSV into Power BI to build an interactive dashboard.
+-	Designed visuals including clustered charts, slicers, cards, and gauges to display insights like BMI, smoker impact, age categories, and regional distributions.
+
+## Dashboard
+<img width="1322" height="742" alt="PBI_Dashboard" src="https://github.com/user-attachments/assets/1f54aaad-1435-4b0e-85fa-6a4f1988dcdf" />
+
